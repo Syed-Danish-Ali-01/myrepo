@@ -1,0 +1,27 @@
+#comment
+
+
+name: Raju Rastogi
+name: "rsju : rsstogi"
+age: 10 
+passed: true
+subjects: #subj list
+  -math
+  -english
+marks: #dictionary
+  math: 90
+  english: 80
+
+
+
+name: aham Rastogi
+name: "ramu : rsstogi"
+age: 20
+passed: fail
+subjects: #subj list
+  -math
+  -english
+marks: #dictionary
+  math: 50
+  english: 90
+

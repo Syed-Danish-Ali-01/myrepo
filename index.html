@@ -2,83 +2,144 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Syed Danish Ali - Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: #fff;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      padding: 10px;
+      background: #0066cc;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #004080;
+    }
+    .skills, .education, .experience, .contact, .personal, .internship {
+      margin-top: 20px;
+    }
+    ul {
+      line-height: 1.8;
+    }
+    footer {
+      background: #004080;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Syed Danish Ali</h1>
-    <p>Software Engineer</p>
-  </header>
 
-  <section class="contact">
-    <h2>Contact</h2>
-    <p><strong>Phone:</strong> (+91)7054300266</p>
-    <p><strong>Email:</strong> syeddanishali888@gmail.com</p>
-    <p><strong>Location:</strong> Lucknow, INDIA</p>
-    <p><strong>Languages:</strong> English, Hindi, Urdu</p>
-  </section>
+<header>
+  <h1>Syed Danish Ali</h1>
+  <p>Application Support & Business Intelligence Specialist</p>
+  <p>
+    📞 +91 7054300266 |
+    📧 syeddanishali888@gmail.com |
+    <a href="https://www.linkedin.com/in/syed-danish-ali-138571137" style="color:lightblue;" target="_blank">LinkedIn</a>
+  </p>
+</header>
 
-  <section class="summary">
-    <h2>Profile Summary</h2>
-    <p>Application Support Engineer (ITIL v3 certified) with over 4 years of IT experience in Business Intelligence and Application Support roles. Strong expertise in Unix, Autosys, SQL, Shell scripting, and ITIL practices. Adept at incident, change, and problem management. A motivated professional with excellent communication and technical problem-solving skills.</p>
-  </section>
+<nav>
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#skills">Skills</a>
+  <a href="#education">Education</a>
+  <a href="#internship">Internships</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-  <section class="skills">
-    <h2>Key Skills</h2>
-    <ul>
-      <li>Python</li>
-      <li>Shell / Bash</li>
-      <li>SQL</li>
-      <li>CentOS Linux CLI</li>
-      <li>AutoSys</li>
-      <li>Incident/Change/Problem Management</li>
-      <li>JIRA</li>
-      <li>Power Bi</li>
-      <li>MS Excel, Word</li>
-      <li>Slack</li>
-      <li>Asana</li>
-      <li>AWS</li>
-    </ul>
-  </section>
+<section id="about">
+  <h2>Career Objective</h2>
+  <p>To leverage my 4 years of experience in Application Support and Business Intelligence, along with my ITIL v3 Foundation certification, to contribute effectively to a dynamic IT environment. I aim to deliver high-quality L2/L3 support, drive process improvements through automation, and ensure application stability and performance.</p>
+</section>
 
-  <section class="experience">
-    <h2>Work Experience</h2>
-    <div class="job">
-      <h3>Business Analyst - Apaiser Consultancy Services Pvt Ltd</h3>
-      <p><em>06/2023 - 03/2025</em></p>
-      <p>Gathering requirements, preparing BRD/FRD, presenting UAT, and creating dashboards for business insights.</p>
-    </div>
-    <div class="job">
-      <h3>Software Engineer - Primewayz Infotech Pvt Ltd</h3>
-      <p><em>06/2019 - 05/2021</em></p>
-      <p>Worked as Application Support/IT Support engineer handling L2/L3 tasks and ensuring application uptime within SLA.</p>
-    </div>
-  </section>
+<section id="experience" class="experience">
+  <h2>Work Experience</h2>
+  <ul>
+    <li><strong>Apaiser Consultancy Pvt Ltd</strong> - Software Engineer (July 2023 - March 2025)</li>
+    <li><strong>Primewayz Info Tech Pvt. Ltd</strong> - Software Engineer (July 2019 - May 2021)</li>
+  </ul>
+  <h3>Responsibilities</h3>
+  <ul>
+    <li>Provided L2/L3 support for enterprise applications</li>
+    <li>Monitored batch jobs via Autosys and performed triage</li>
+    <li>Used SQL for analysis and data validation across multiple DBs</li>
+    <li>Wrote Unix shell scripts to automate routine tasks</li>
+    <li>Managed incidents and changes through ServiceNow</li>
+    <li>Led application releases and post-deployment checks</li>
+    <li>Mentored junior staff and collaborated with cross-functional teams</li>
+  </ul>
+</section>
 
-  <section class="education">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>MBA- Information Technology & International Business</strong> (2021-2023)<br />Dr. APJ Abdul Kalam Technical University, Lucknow - 66.6%</li>
-      <li><strong>B.Tech - Information Technology</strong> (2015-2019)<br />IEC Group of Institutions - 72%</li>
-      <li><strong>12th-kendriya vidyalaya</strong> (2012-2014)<br />CBSE - 72.8%</li>
-      <li><strong>10th-Shibli National Inter College</strong> (2010-2012)<br />Uttar Pradesh Board - 83.8%</li>
-    </ul>
-  </section>
+<section id="skills" class="skills">
+  <h2>Skills & Tools</h2>
+  <ul>
+    <li>Unix/Linux, Shell Scripting</li>
+    <li>SQL, Oracle, Sybase, SQL Server</li>
+    <li>Autosys, ITRS, ServiceNow</li>
+    <li>Python, AWS</li>
+    <li>Incident/Change/Problem Management</li>
+    <li>Jira, Asana, MS Excel, Word, PowerPoint</li>
+    <li>Excellent communication, leadership, teamwork</li>
+  </ul>
+</section>
 
-  <section class="certifications">
-    <h2>Certifications</h2>
-    <p>ITIL V3 Foundation Level</p>
-  </section>
+<section id="education" class="education">
+  <h2>Academic Qualifications</h2>
+  <ul>
+    <li><strong>MBA (IT+IB)</strong> - Dr. A P J Abdul Kalam University, Lucknow (66.6%)</li>
+    <li><strong>BTech (IT)</strong> - Dr. A P J Abdul Kalam University, Lucknow (72.2%)</li>
+    <li><strong>XII (C.B.S.E.)</strong> - Kendriya Vidyalaya, Azamgarh (72.8%)</li>
+    <li><strong>X (UP Board)</strong> - Shibli National Inter College, Azamgarh (83.2%)</li>
+  </ul>
+</section>
 
-  <section class="projects">
-    <h2>Projects</h2>
-    <p>Managed data flow from upstream to calculation systems. SME for several apps. Ownership of incident and problem management. Coordinated with L3/AD teams for post-mortems and reviews. Ensured SLA delivery, data validation, job scheduling, file delivery, and stakeholder communication.</p>
-  </section>
+<section id="internship" class="internship">
+  <h2>Internship Training</h2>
+  <p><strong>Internshala.com:</strong> Practical work in software/web development, database management, debugging, testing, Agile methodology, Git, VS Code, Jira.</p>
+  <p><strong>MBA IT Internship:</strong> Learned IT project management, business analysis, data analytics, ERP/CRM, Power BI, cybersecurity basics, and stakeholder management.</p>
+</section>
 
-  <footer>
-    <p>© 2025 Syed Danish Ali</p>
-  </footer>
+<section id="contact" class="contact">
+  <h2>Contact & Personal Details</h2>
+  <ul>
+    <li><strong>Father’s Name:</strong> Rizwanullah</li>
+    <li><strong>Address:</strong> Sector D, Aliganj, Lucknow</li>
+    <li><strong>Date of Birth:</strong> 22/07/1997</li>
+    <li><strong>Gender:</strong> Male</li>
+    <li><strong>Marital Status:</strong> Unmarried</li>
+    <li><strong>Nationality:</strong> Indian</li>
+    <li><strong>Passport:</strong> Available (No: V1478120)</li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2025 Syed Danish Ali | Portfolio Website</p>
+</footer>
+
 </body>
 </html>
